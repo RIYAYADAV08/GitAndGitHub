@@ -1,0 +1,59 @@
+Git - It is a free, open source and version control system.
+Version Control System - It is a tool that helps to track chnages in code.
+It tracks history.
+It helps in collaboration.
+
+GitHub - It is a website where we host our repositories online.
+
+Using Git
+Command Line(Most Popular)
+IDE(VS code)
+GUI(like Gitkraken,GitHub Desktop,Sourcetree)
+
+Configure Git
+It means setting up the basic information before using git.
+git config --global user.name "RIYAYADAV08"
+git config --global user.email "riya080305@gmail.com"
+git config --list
+
+Basic Commands
+Clone - Cloning a repostory on our local machine.
+git clone link
+Status - display the state of the code.
+git status
+Workflow
+Untracked-add the file-unmodified-edit the file-modified-stage the file-staged-commit
+add- add new or changed files in your working directory to the git staging area.
+ek file add karne ke liye git add then file name
+ek saath sari git add .
+Commit -It is the record of Change.
+git commit -m "some message"
+
+Push Command -git push -u origin main (used the first time to push a branch and set the upstream.)
+git push -uske baad har baar (used after the upstream is set to push changes to the tracked branch)
+git push origin main - Used to push changes directly to the main branch by speifying the remote and branch name.
+
+
+git init - creates a new Git repository.
+git remote add origin link - connect your local repository to remote Github Repository
+git remote -v -> Displays the remote repositories connected to your local repository.
+git branch - Lists all local branches and shows the current branch.
+git branch -M main - Rename the current branch to main.
+git checkout <branch-name> - Used to switch from the current branch to another existing branch.
+git checkout -b <branch-name> - Used to create a new branch and immediately switch to it.
+git branch -d <branch-name> - Used to delete a local branch after it has been merged.
+
+
+Complete Flow
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repository-link>
+git push -u origin main
+
+WorkFlow Of Git and GitHub
+GitHub - code changes-commit
+git - code changes-add -commit-push
+
+
