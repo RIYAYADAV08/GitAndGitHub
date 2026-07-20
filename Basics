@@ -29,13 +29,13 @@ ek saath sari git add .
 Commit -It is the record of Change.
 git commit -m "some message"
 
-Push Command -git push -u origin main (used the first time to push a branch and set the upstream.)
-git push -uske baad har baar (used after the upstream is set to push changes to the tracked branch)
+Push Command -git push -u origin main (used the first time to push a branch and set the upstream).
+git push -uske baad har baar (used after the upstream is set to push changes to the tracked branch).
 git push origin main - Used to push changes directly to the main branch by speifying the remote and branch name.
 
 
 git init - creates a new Git repository.
-git remote add origin link - connect your local repository to remote Github Repository
+git remote add origin link - connect your local repository to remote Github Repository.
 git remote -v -> Displays the remote repositories connected to your local repository.
 git branch - Lists all local branches and shows the current branch.
 git branch -M main - Rename the current branch to main.
@@ -53,7 +53,8 @@ git remote add origin <repository-link>
 git push -u origin main
 
 WorkFlow Of Git and GitHub
-GitHub - code changes-commit
-git - code changes-add -commit-push
+GitHub - code changes-commit.
+git - code changes-add -commit-push.
+github - code changes - commit.
 
 
